@@ -28,6 +28,7 @@ async function myFakeSearch() {
     // await page.waitFor('#rso > div:nth-child(1) > div > div:nth-child(1) > div > div > div.r a');
     // await page.click('#rso > div:nth-child(1) > div > div:nth-child(1) > div > div > div.r > a');
 
+
   }
 
 }
