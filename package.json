@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer-obfuscation",
+  "version": "1.0.0",
+  "description": "Puppeteer experiment to control chromium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvapatil/puppeteer-obfuscation.git"
+  },
+  "author": "Atharva Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvapatil/puppeteer-obfuscation/issues"
+  },
+  "homepage": "https://github.com/atharvapatil/puppeteer-obfuscation#readme",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
