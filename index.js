@@ -10,7 +10,7 @@ async function myFakeSearch() {
     slowMo: 50
   });
 
-  googleThis = await randomWords(5);
+  googleThis = await randomWords(13);
   console.log(googleThis);
 
   for (i = 0; i < googleThis.length; i++) {
@@ -25,8 +25,8 @@ async function myFakeSearch() {
     await page.goto('https://www.google.com');
     await page.type('#main', googleThis[i]);
     await page.keyboard.press("Enter");
-    // await page.waitFor('#rso > div:nth-child(1) > div > div:nth-child(1) > div > div > div.r a');
-    // await page.click('#rso > div:nth-child(1) > div > div:nth-child(1) > div > div > div.r > a');
+    await page.waitFor('#rso > div > div > div:nth-child(1) > div > div > div.r a');
+    await page.click('#rso > div > div > div:nth-child(1) > div > div > div.r a');
 
 
   }
